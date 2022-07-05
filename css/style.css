@@ -308,14 +308,14 @@ header {
     header .colorlib-navbar-brand .colorlib-logo {
       font-size: 20px;
       text-transform: uppercase;
-      color: #000;
-      font-weight: 400;
+      color: #000; }
+      /* font-weight: 400;
       letter-spacing: 5px;
       padding: 7px;
       border: 1px solid #000;
       display: block;
       text-align: center;
-      background: #000; }
+      background: #000; } */
       header .colorlib-navbar-brand .colorlib-logo span {
         display: block;
         margin-bottom: 0;
