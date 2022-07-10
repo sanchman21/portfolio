@@ -331,7 +331,7 @@ header {
 #colorlib-contact,
 #colorlib-work,
 #colorlib-blog,
-#colorlib-testimony,
+#colorlib-workshop,
 #colorlib-progress,
 #colorlib-contact,
 #colorlib-about {
@@ -343,7 +343,7 @@ header {
     #colorlib-contact,
     #colorlib-work,
     #colorlib-blog,
-    #colorlib-testimony,
+    #colorlib-workshop,
     #colorlib-progress,
     #colorlib-contact,
     #colorlib-about {
@@ -1058,6 +1058,146 @@ header {
         color: #000; }
   .article:hover .meta {
     background: #fff; }
+
+#colorlib-workshop .owl-carousel {
+  z-index: 0; }
+    
+#colorlib-workshop .owl-carousel .owl-stage-outer {
+  z-index: -1; }
+    
+#colorlib-workshop .owl-theme .owl-controls {
+  margin-top: -10px;
+  z-index: 1;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  margin-top: -30px; }
+    
+#colorlib-workshop .owl-theme .owl-controls .owl-nav [class*=owl-] {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  border-radius: 1px;
+  background: transparent;
+  background: #fff;
+  padding: 5px 5px;
+  opacity: 1; }
+  
+#colorlib-workshop .owl-theme .owl-controls .owl-nav [class*=owl-] .owl-direction {
+  background: transparent;
+  color: #000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none; }
+    
+  .workshop-details {
+    display: block;
+    margin-bottom: 0em; }
+    .workshop-details .workshop-img {
+      margin-bottom: 50px;
+      display: block;
+      position: relative;
+      overflow: hidden;
+      width: 100%; }
+      .workshop-details .workshop-img img {
+        position: relative;
+        max-width: 100%;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: 0.7s;
+        -o-transition: 0.7s;
+        transition: 0.7s; }
+      .workshop-details .workshop-img .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+        opacity: 0;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+      .workshop-details .workshop-img .link {
+        position: absolute;
+        bottom: 0;
+        left: 90%;
+        display: table;
+        width: 100%;
+        opacity: 0;
+        -webkit-transition: 0.7s;
+        -o-transition: 0.7s;
+        transition: 0.7s; }
+        .workshop-details .workshop-img .link .read {
+          display: table-cell;
+          vertical-align: middle;
+          font-family: "Karla", Arial, sans-serif;
+          color: #fff;
+          font-size: 12px;
+          text-transform: uppercase;
+          letter-spacing: 5px;
+          -webkit-transform: rotate(-90deg);
+          -moz-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          -o-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+          -webkit-transform-origin: 0;
+          -ms-transform-origin: 0;
+          transform-origin: 0;
+          position: relative; }
+          .workshop-details .workshop-img .link .read:after {
+            position: absolute;
+            top: 10px;
+            left: -50px;
+            content: '';
+            background: #fff;
+            width: 40px;
+            height: 1px; }
+      .workshop-details .workshop-img:hover .overlay {
+        opacity: 1; }
+      .workshop-details .workshop-img:hover .link {
+        opacity: 1;
+        bottom: 50px; }
+      .workshop-details .workshop-img:hover img {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1); }
+    .workshop-details .desc {
+      position: relative; }
+      .workshop-details .desc .meta {
+        position: absolute;
+        top: -80px;
+        left: 20px;
+        background: #FFE9E3;
+        color: #000;
+        padding: 20px 10px;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+        -webkit-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        -moz-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        -ms-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        -o-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21); }
+      .workshop-details .desc h2 {
+        font-size: 24px; }
+        .article .desc h2 a {
+          text-decoration: none;
+          color: #000; }
+    .workshop-details:hover .meta {
+      background: #fff; }
 
 /* #colorlib-testimony .owl-theme .owl-dots .owl-dot.active span,
 #colorlib-testimony .owl-theme .owl-dots .owl-dot:hover span {
